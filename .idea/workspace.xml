@@ -5,28 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f887489-b693-4c31-9e1a-6d4edf51e806" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/ProjectMichelan.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/main/resources/static/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/michelan.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/michelan/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/michelan/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/michelan/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/michelan/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/michelan/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/michelan/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/michelan/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/michelan/src/main/java/com/michelan/main/MainApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/michelan/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/michelan/src/main/resources/static/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/img/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/michelan/src/main/resources/static/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/img/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/michelan/src/main/resources/static/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/img/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/michelan/src/main/resources/static/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/img/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/michelan/src/test/java/com/michelan/main/MainApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/resources/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
