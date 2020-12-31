@@ -17,3 +17,36 @@
 .subpic{
   position: relative;
 }
+
+.subpic .inner{
+  position:absolute; 
+    background:rgba(255,255,255,0.7); 
+    top:50%; 
+    left:50%; 
+    transform:translate(-50%,-50%); 
+    padding:35px; 
+    text-align:center;
+}
+.subpic .inner h1{ 
+  font-family:arial; 
+  text-align:center; 
+  font-weight:normal; 
+  color:#777; 
+} 
+
+.subpic .inner h5{ 
+  font-family:arial; 
+  text-align:center; 
+  font-weight:normal; 
+  color:#777; 
+} 
+
+.subpic .inner button{ 
+  background:#aaa; 
+  color:#fff; 
+  text-transform:uppercase; 
+  font-weight:bold; 
+  font-size:16px; 
+  border:none; 
+  padding:10px 30px; 
+} 
