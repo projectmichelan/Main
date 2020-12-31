@@ -1,16 +1,4 @@
-<<<<<<< HEAD
-.footer {
-    position: relative;
-    width: 100%;
-    padding: 10px 0;
-    text-align: center;
-    background-color: white;
-    border-top: 1px solid rgb(206, 206, 206);
-    font-size: 11px;
-  }
-  
-=======
-:root{
+:root {
     /* color */
     --text-grey: #616161;
     --text-white: white;
@@ -20,7 +8,7 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     background-image: url(../img/navbar.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -29,8 +17,7 @@ body{
     color: var(--text-white);
 }
 
-
-.nav__bar{
+.nav__bar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -38,7 +25,7 @@ body{
 }
 /* Logo */
 
-.navbar__Logo{
+.navbar__Logo {
     display: flex;
     flex-direction: row;
 }
@@ -48,7 +35,7 @@ body{
     padding-right: 20px;
 }
 
-.navbar__Text{
+.navbar__Text {
     text-decoration: none;
 }
 .navbar__Text span {
@@ -57,18 +44,18 @@ body{
     color: var(--text-white);
     align-items: center;
 }
-.navbar__Top--Text{
+.navbar__Top--Text {
     font-size: 30px;
 }
 
 .navbar__Middle--Text,
-.navbar__Bottom--Text{
-    font-size: 20px;;
+.navbar__Bottom--Text {
+    font-size: 20px;
 }
 
 /* Search */
 
-.form__Control{
+.form__Control {
     width: 45rem;
     height: 3rem;
     border-radius: 20px;
@@ -77,12 +64,11 @@ body{
     border-width: 0;
 }
 
-.btn__Search{
+.btn__Search {
     height: 3rem;
     width: 5rem;
     border-radius: 10px;
 }
-
 
 /* Menu */
 
@@ -110,18 +96,15 @@ ul {
 }
 /* footer */
 
-footer{
+footer {
     display: flex;
     justify-content: space-between;
-
 }
 
 .Footer__Left p,
 .Footer__info {
-    color: var(--text-grey)
+    color: var(--text-grey);
 }
-
-
 
 .Footer__Right {
     display: flex;
@@ -137,19 +120,18 @@ footer{
 }
 
 /* Footer_SNS */
-.Footer__Sns ul{
+.Footer__Sns ul {
     display: flex;
 }
 
-.Footer__Sns li{
+.Footer__Sns li {
     list-style: none;
 }
 
-.Footer__Sns i{
+.Footer__Sns i {
     color: var(--text-grey);
     text-decoration: none;
     font-size: 3rem;
     padding-right: 10px;
     cursor: default;
 }
->>>>>>> 73eaade990802552f0b15604e9803c6d4f0415ed

@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f887489-b693-4c31-9e1a-6d4edf51e806" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="3f887489-b693-4c31-9e1a-6d4edf51e806" name="Default Changelist" comment="structure 구성">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/frags/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/resources/templates/frags/base.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/frags/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/resources/templates/frags/base.html" afterDir="false" />
@@ -91,5 +90,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="structure 구성" />
+    <option name="LAST_COMMIT_MESSAGE" value="structure 구성" />
   </component>
 </project>
