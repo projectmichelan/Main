@@ -32,11 +32,11 @@
 
                 <div class="collapse navbar-collapse" id="navbarsExampleDefault">
                     <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                        <li class="nav-item" th:classappend = "${navbar} == 'main' ? 'active'">
-                            <a class="nav-link" href="#" th:href = "@{/}">홈<span class = "sr-only" th:if = "${menu} == 'main'">(current)</span></a>
+                        <li class="nav-item" th:classappend="${navbar} == 'main' ? 'active'">
+                            <a class="nav-link" href="#" th:href="@{/}">홈<span class="sr-only" th:if="${menu} == 'main'">(current)</span></a>
                         </li>
-                        <li class="nav-item" th:classappend = "${navbar} == 'list' ? 'active'">
-                            <a class="nav-link" href="#" th:href = "@{/gallery/list}">갤러리<span class = "sr-only" th:if = "${menu} == 'list'">(current)</span></a>
+                        <li class="nav-item" th:classappend="${navbar} == 'list' ? 'active'">
+                            <a class="nav-link" href="#" th:href="@{/gallery/galleryview}">갤러리<span class="sr-only" th:if="${menu} == 'galleryview'">(current)</span></a>
                         </li>
 
                         <li class="nav-item dropdown">
