@@ -4,43 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f887489-b693-4c31-9e1a-6d4edf51e806" name="Default Changelist" comment="structure 구성">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_2_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_1_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_2_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_25_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_27_0_GA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_1_3_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mariadb_jdbc_mariadb_java_client_2_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/main/java/com/michelan/main/model/Galleryview.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/main/java/com/michelan/main/repository/GalleryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/main/resources/templates/gallery/galleryview.html" afterDir="false" />
+    <list default="true" id="3f887489-b693-4c31-9e1a-6d4edf51e806" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/project/src/main/resources/templates/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Grimm.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/resources/static/img/Grimm.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/JoinUs.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/resources/static/img/JoinUs.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Michelan.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/resources/static/img/Michelan.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Pottery.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/resources/static/img/Pottery.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Statue.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/resources/static/img/Statue.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icon-lion.png" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/resources/static/img/icon-lion.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icon-lion2.png" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/resources/static/img/icon-lion2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icon-watercolor.png" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/resources/static/img/icon-watercolor.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icon-watercolor2.png" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/resources/static/img/icon-watercolor2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/main-prototype.png" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/resources/static/img/main-prototype.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/main-prototype2.png" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/resources/static/img/main-prototype2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/main/java/com/michelan/main/controller/GalleryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/java/com/michelan/main/controller/GalleryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/java/com/michelan/main/model/Galleryview.java" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/java/com/michelan/main/model/Galleryview.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/static/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/static/main2.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/frags/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/resources/templates/frags/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/frags/base2.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/resources/templates/frags/base2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/gallery/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/frags/base2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/frags/base2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/gallery/galleryview.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/resources/templates/gallery/galleryview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/resources/templates/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/main2.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,10 +68,16 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.XML" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\Desktop\prj\Main\project\src\main\resources\static\img" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="MainApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">

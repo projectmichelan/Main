@@ -13,6 +13,7 @@ import javax.persistence.Id;
 public class Galleryview {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+
     private Long id;
     private String title;
     private String content;
