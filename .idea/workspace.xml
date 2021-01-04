@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f887489-b693-4c31-9e1a-6d4edf51e806" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/project/src/main/resources/static/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/static/css/css/ex.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/frags/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/resources/templates/frags/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/gallery/galleryview.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/resources/templates/gallery/galleryview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/resources/templates/main.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +60,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\Desktop\prj\Main\project\src\main\resources\static\css" />
+      <recent name="C:\Users\admin\Desktop\prj\Main\project\src\main\resources\static\img\css" />
       <recent name="C:\Users\admin\Desktop\prj\Main\project\src\main\resources\static\img" />
     </key>
   </component>
