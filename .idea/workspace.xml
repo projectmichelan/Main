@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f887489-b693-4c31-9e1a-6d4edf51e806" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/project/src/main/resources/static/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/main/resources/static/css/css/ex.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/java/com/michelan/main/controller/GalleryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/java/com/michelan/main/controller/GalleryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/static/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/resources/static/css/base.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/frags/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/resources/templates/frags/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/gallery/galleryview.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/resources/templates/gallery/galleryview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/gallery/galleryview.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/resources/templates/galleryview.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/resources/templates/main.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +57,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.XML" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.michelan.main" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\Desktop\prj\Main\project\src\main\resources\templates" />
       <recent name="C:\Users\admin\Desktop\prj\Main\project\src\main\resources\static\css" />
       <recent name="C:\Users\admin\Desktop\prj\Main\project\src\main\resources\static\img\css" />
       <recent name="C:\Users\admin\Desktop\prj\Main\project\src\main\resources\static\img" />
@@ -67,6 +69,7 @@
   </component>
   <component name="RunManager">
     <configuration name="MainApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="C:\Program Files\OpenJDK\openjdk-8u275-b01\jre" />
       <option name="MAIN_CLASS_NAME" value="com.michelan.main.MainApplication" />
       <module name="main" />
       <extension name="coverage">
@@ -112,5 +115,16 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="structure 구성" />
     <option name="LAST_COMMIT_MESSAGE" value="structure 구성" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/project/src/main/java/com/michelan/main/controller/MainController.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

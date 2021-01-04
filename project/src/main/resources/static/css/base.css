@@ -9,7 +9,8 @@
 }
 
 body {
-    background-image: url(../img/navbar.jpg);
+    /* 경로에 navbar.jpg 파일이 없음 */
+    background-image: url(../img/icon-watercolor.png); 
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 10px;

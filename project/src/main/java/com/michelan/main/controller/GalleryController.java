@@ -22,6 +22,6 @@ public class GalleryController {
     public String Galleryview(Model model) {
         List<Galleryview> galleryview = galleryRepository.findAll();
         model.addAttribute("galleryview", galleryview);
-        return "gallery/galleryview";
+        return "galleryview";
     }
 }
