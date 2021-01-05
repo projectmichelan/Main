@@ -1,31 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
-            crossorigin="anonymous"
-        />
-</head>
-<body>
-    
-    <div class="boot">
-        <p class="fs-1">MICHELAN에 오신걸 환영합니다.</p>
-        <p class="fs-6">MICHELAN은 사회의 이름을 펼치지 못한 예술가들의 웹 사이트입니다.
-            <br>"예술" 이라는것이 새로운 세상을 제창조 하는힘이 있다고 믿습니다.</p>
-            <p class="fw-light">아이디가 없으신가요</p>
-            <button type="button" class="btn btn-secondary btn-lg">무료로 가입하기</button>
-        </div>
-</body>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head th:replace="frags/base :: head('Welcome to Michelan!')"></head>
 
+    <style>
+        .boot {
+            text-align: center;
+            margin: 20% 15% 15% 10%;
+        }
+    </style>
+
+    <body>
+        <div class="boot">
+            <p class="fs-1" style="color: black;">당신의 갤러리, Michelan</p>
+            <a th:href = "login" class="btn btn-primary btn-lg" >로그인</a>
+            <a th:href = "register" class="btn btn-secondary btn-lg">가입하기</a>
+        </div>
+    </body>
 </html>
-<style>
-    .boot{
-        text-align: center;
-        margin-top: 10%;
-    }
-</style>

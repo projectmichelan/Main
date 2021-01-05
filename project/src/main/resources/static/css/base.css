@@ -2,6 +2,7 @@
     /* color */
     --text-grey: #616161;
     --text-white: white;
+    --text-black: black;
 }
 
 * {
@@ -9,13 +10,12 @@
 }
 
 body {
-    /* 경로에 navbar.jpg 파일이 없음 */
     background-image: url(../img/icon-watercolor.png); 
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 10px;
     text-decoration: none;
-    color: var(--text-white);
+    color: var(--text-black);
 }
 
 .nav__bar {

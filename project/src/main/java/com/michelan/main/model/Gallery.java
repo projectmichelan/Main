@@ -10,7 +10,7 @@ import javax.persistence.Id;
 
 @Entity
 @Data
-public class Galleryview {
+public class Gallery {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
 

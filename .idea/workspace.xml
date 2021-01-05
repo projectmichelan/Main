@@ -5,7 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f887489-b693-4c31-9e1a-6d4edf51e806" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/project/src/main/java/com/michelan/main/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/java/com/michelan/main/controller/RegisterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/resources/static/css/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/resources/static/css/register.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/resources/templates/gallery.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/resources/templates/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/project/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/java/com/michelan/main/controller/GalleryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/java/com/michelan/main/controller/GalleryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/java/com/michelan/main/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/java/com/michelan/main/controller/IntroController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/java/com/michelan/main/model/Galleryview.java" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/java/com/michelan/main/model/Gallery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/java/com/michelan/main/repository/GalleryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/java/com/michelan/main/repository/GalleryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/static/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/resources/static/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/static/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/galleryview.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/intro.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/resources/templates/intro.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/resources/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/main.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +32,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -110,17 +127,6 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="structure 구성" />
     <option name="LAST_COMMIT_MESSAGE" value="structure 구성" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/project/src/main/java/com/michelan/main/controller/MainController.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

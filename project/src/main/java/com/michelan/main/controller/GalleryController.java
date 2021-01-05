@@ -1,7 +1,7 @@
 package com.michelan.main.controller;
 
 
-import com.michelan.main.model.Galleryview;
+import com.michelan.main.model.Gallery;
 import com.michelan.main.repository.GalleryRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -18,10 +18,10 @@ public class GalleryController {
     @Autowired
     private GalleryRepository galleryRepository;
 
-    @GetMapping("/galleryview")
-    public String Galleryview(Model model) {
-        List<Galleryview> galleryview = galleryRepository.findAll();
-        model.addAttribute("galleryview", galleryview);
-        return "galleryview";
+    @GetMapping("/")
+    public String view(Model model) {
+        List<Gallery> gallery = galleryRepository.findAll();
+        model.addAttribute("gallery", gallery);
+        return "gallery";
     }
 }
