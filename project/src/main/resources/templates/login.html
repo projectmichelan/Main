@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<<<<<<< HEAD
 <html lang="ko">
   <head>
     <meta charset="utf-8">
@@ -64,6 +65,40 @@
           <label>
             <input type="checkbox" value="remember-me"> 기억하기
           </label>
+=======
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/latest/js/bootstrap.min.js"></script>
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="../../static/css/login.css" th:href="@{/css/login.css}" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+                <div class="panel panel-success">
+                    <div class="panel-heading">
+                        <div class="panel-title">welcome!</div>
+                    </div>
+                    <div class="panel-body">
+                        <form id="login-form">
+                            <div>
+                                <input type="text" class="form-control" name="username" placeholder="이메일 주소" autofocus />
+                            </div>
+                            <div>
+                                <input type="password" class="form-control" name="password" placeholder="비밀 번호" />
+                            </div>
+                            <div>
+                                <button type="submit" class="form-control btn btn-primary">로그인</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+>>>>>>> 12d4b54dbbc0818105786e33d862eb872531bb08
         </div>
         <button id="btn-Yes" class="btn btn-lg btn-primary btn-block" type="submit">로 그 인</button>
       </form>
