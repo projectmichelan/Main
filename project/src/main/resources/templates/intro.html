@@ -1,19 +1,13 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
-    <head th:replace="frags/base :: head('Welcome to Michelan!')"></head>
-
-    <style>
-        .boot {
-            text-align: center;
-            margin: 20% 15% 15% 10%;
-        }
-    </style>
-
+    <head th:replace="fragments/base :: head(intro)">
+    </head>
     <body>
-        <div class="boot">
-            <p class="fs-1" style="color: black;">당신의 갤러리, Michelan</p>
-            <a th:href = "login" class="btn btn-primary btn-lg" >로그인</a>
-            <a th:href = "register" class="btn btn-secondary btn-lg">가입하기</a>
+        <div class="boot" style = "text-align: center; margin: 20% 15% 15% 10%;">
+            <p class="fs-1" style="color: black">당신의 갤러리, 미켈란</p>
+            <a th:href="login" class="btn btn-primary btn-lg">로그인</a>
+            <a th:href="register" class="btn btn-secondary btn-lg">가입하기</a>
+            <a th:href="gallery" class="btn btn-secondary btn-lg">둘러보기</a>
         </div>
     </body>
 </html>

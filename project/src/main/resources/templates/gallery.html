@@ -1,41 +1,57 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
-    <head th:replace="frags/base :: head('Michelan')"></head>
+    <head th:insert="fragments/base :: head(gallery)">
+        <link rel="canonical" th:href="@{https://getbootstrap.com/docs/4.1/examples/jumbotron/}" />
+        <link th:href="@{../../dist/css/bootstrap.min.css}" rel="stylesheet" />
+        <link th:href="@{/css/gallery.css}" rel="stylesheet" />
+    </head>
 
     <body>
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top" th:replace="frags/base :: navbar(navbar)"></nav>
-
-        <link href="/css/main.css" th:ref="@{/css/main.css}" rel="stylesheet" />
-
-        <main class="container">
-            <div class="pic">
-                <div class="subpic" href="/"><img class="img" src="../static/img/Michelan.jpg" th:src="@{/img/Michelan.jpg}" /><span class="text">MICHELAN</span></div>
-                <div class="subpic" href="/">
-                    <img class="img" src="../static/img/JoinUs.jpg" th:src="@{/img/JoinUs.jpg}" />
+        <main role="main">
+            <div class="jumbotron">
+                <div class="container">
+                    <h1 class="display-3">Michelan</h1>
+                    <p>
+                        국회는 선전포고, 국군의 외국에의 파견 또는 외국군대의 대한민국 영역안에서의 주류에 대한 동의권을 가진다. 국가는 건전한 소비행위를 계도하고 생산품의 품질향상을 촉구하기 위한
+                        소비자보호운동을 법률이 정하는 바에 의하여 보장한다. 국가는 노인과 청소년의 복지향상을 위한 정책을 실시할 의무를 진다. 대통령의 선거에 관한 사항은 법률로 정한다. 국가는 청원에
+                        대하여 심사할 의무를 진다. 대한민국은 통일을 지향하며, 자유민주적 기본질서에 입각한 평화적 통일 정책을 수립하고 이를 추진한다. 사면·감형 및 복권에 관한 사항은 법률로 정한다.
+                        사법권은 법관으로 구성된 법원에 속한다. 모든 국민은 그 보호하는 자녀에게 적어도 초등교육과 법률이 정하는 교육을 받게 할 의무를 진다.
+                    </p>
                 </div>
-                <div class="subpic" href="/"><img class="img" src="../static/img/Grimm.jpg" th:src="@{/img/Grimm.jpg}" /><span class="text">그림 갤러리</span></div>
-                <div class="subpic" href="/"><img class="img" src="../static/img/Pottery.jpg" th:src="@{/img/Pottery.jpg}" /><span class="text">도자기 갤러리</span></div>
-                <div class="subpic" href="/"><img class="img" src="../static/img/Statue.jpg" th:src="@{/img/Statue.jpg}" /><span class="text">조각상 갤러리</span></div>
             </div>
+
+            <div class="container">
+                <!-- Example row of columns -->
+                <div class="row">
+                    <div class="col-md-4">
+                        <h2>sample1</h2>
+                        <p>samplecontent1</p>
+                        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                    </div>
+                    <div class="col-md-4">
+                        <h2>sample2</h2>
+                        <p>sample content2</p>
+                        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                    </div>
+                    <div class="col-md-4">
+                        <h2>sample3</h2>
+                        <p>sample content 3</p>
+                        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                    </div>
+                </div>
+
+                <hr />
+            </div>
+            <!-- /container -->
         </main>
 
-        <div class="pic">
-            <div class="subpic" href="/"><img class="img" src="../static/img/Michelan.jpg" th:src="@{/img/Michelan.jpg}" /><span class="text">MICHELAN</span></div>
-            <div class="subpic" href="/">
-                <img class="img" src="../static/img/JoinUs.jpg" th:src="@{/img/JoinUs.jpg}" />
-                <div class="inner">
-                    <h1>미켈란은</h1>
-                    <br />
-                    <h5>아직 사회의 이름을 펼치지 못한 예술가들의 모든 작품을 모아 판매 및 홍보를 할 수 있는 웹사이트입니다.</h5>
-                    <br />
-                    <h5>저희는 "예술"이라는 것이 세상을 바꾸고 새로운 세상을 제창조하는 힘을 가지고 있다고 믿고 있습니다.</h5>
-                    <br />
-                    <button>Join Us</button>
-                </div>
-            </div>
-            <div class="subpic" href="/"><img class="img" src="../static/img/Grimm.jpg" th:src="@{/img/Grimm.jpg}" /><span class="text">그림 갤러리</span></div>
-            <div class="subpic" href="/"><img class="img" src="../static/img/Pottery.jpg" th:src="@{/img/Pottery.jpg}" /><span class="text">도자기 갤러리</span></div>
-            <div class="subpic" href="/"><img class="img" src="../static/img/Statue.jpg" th:src="@{/img/Statue.jpg}" /><span class="text">조각상 갤러리</span></div>
-        </div>
+        <footer th:replace="fragments/base :: footer"></footer>
+
+        <script th:src="@{https://code.jquery.com/jquery-3.3.1.slim.min.js}" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script>
+            window.jQuery || document.write('<th:script src=@{"/js/jquery-slim.min.js"}><\/script>');
+        </script>
+        <script th:src="@{/js/popper.min.js}"></script>
+        <script th:src="@{/js/bootstrap.min.js}"></script>
     </body>
 </html>

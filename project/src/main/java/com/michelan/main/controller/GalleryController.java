@@ -18,8 +18,8 @@ public class GalleryController {
     @Autowired
     private GalleryRepository galleryRepository;
 
-    @GetMapping("/")
-    public String view(Model model) {
+    @GetMapping
+    public String Gallery(Model model) {
         List<Gallery> gallery = galleryRepository.findAll();
         model.addAttribute("gallery", gallery);
         return "gallery";

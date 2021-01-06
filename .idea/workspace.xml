@@ -5,24 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f887489-b693-4c31-9e1a-6d4edf51e806" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/project/src/main/java/com/michelan/main/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/main/java/com/michelan/main/controller/RegisterController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/main/resources/static/css/home.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/main/resources/static/css/register.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/main/resources/templates/gallery.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/main/resources/templates/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/resources/static/css/intro.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/resources/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/resources/static/js/jquery-slim.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/resources/static/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/resources/templates/fragments/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/project/mvnw.cmd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/src/main/java/com/michelan/main/controller/GalleryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/java/com/michelan/main/controller/GalleryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/main/java/com/michelan/main/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/java/com/michelan/main/controller/IntroController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/main/java/com/michelan/main/model/Galleryview.java" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/java/com/michelan/main/model/Gallery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/main/java/com/michelan/main/repository/GalleryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/java/com/michelan/main/repository/GalleryRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/main/resources/static/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/resources/static/css/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/main/resources/static/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/galleryview.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/static/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/resources/static/css/gallery.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/frags/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/resources/templates/gallery.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/intro.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/resources/templates/intro.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/resources/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/resources/templates/register.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +60,7 @@
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
