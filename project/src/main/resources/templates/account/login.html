@@ -15,23 +15,27 @@
 			<h2 class="card-title text-center" style="color:#113366;">MICHELAN</h2>
 		</div>
 		<div class="card-body">
-      <div th:if = "${param.error}">
-        아이디가 잘못되었습니다.
+      <div th:if = "${param.error}" style = "color: red;">
+        로그인 정보가 잘못되었습니다.
       </div>
+
+
       <div th:if = "${param.logout}">
         로그아웃되었습니다.
       </div>
+
       <form class="form-signin" th:action = "@{/account/login}" method="POST" onSubmit="logincall();return false">
         <h5 class="form-signin-heading">로그인</h5>
-        <input type="text" id="userid" name="userid" class="form-control" placeholder="ID" required autofocus><BR>
+        <input type="text" id="userid" name="userid" class="form-control" placeholder="ID" required autofocus><br>
         <input type="password" id="userpw" name="userpw" class="form-control" placeholder="PW" required><br>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" value="remember-me"> 기억하기
-          </label>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" value="remember-me"> 로그인 정보 기억하기
+            </label>
+          <button class = "btn btn-lg btn-primary btn-block" type = "submit">로그인</button>
         </div>
 
-        </form>
+      </form>
 
       
 
