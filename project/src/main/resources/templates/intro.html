@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
-    <head th:replace="fragments/base :: head(intro)">
-    </head>
+    <head th:replace="fragments/base :: head(intro)"> </head>
+
+    <link th:href="@{/css/intro.css}" rel="stylesheet" />
+    <title>Welcome to Michelan!</title>
     <body>
-        <div class="boot" style = "text-align: center; margin: 20% 15% 15% 10%;">
-            <p class="fs-1" style="color: black">당신의 갤러리, 미켈란</p>
-            <a th:href="login" class="btn btn-primary btn-lg">로그인</a>
-            <a th:href="register" class="btn btn-secondary btn-lg">가입하기</a>
-            <a th:href="gallery" class="btn btn-secondary btn-lg">둘러보기</a>
+        <div class="boot" style="text-align: center; margin: 20% 15% 15% 10%">
+            <p class="fs-1">당신의 갤러리, 미켈란</p>
+            <a th:href="@{/account/login}" class="btn btn-primary btn-lg">로그인</a>
+            <a th:href="@{/account/register}" class="btn btn-secondary btn-lg">가입하기</a>
+            <a th:href="@{/gallery/gallery}" class="btn btn-secondary btn-lg">둘러보기</a>
         </div>
     </body>
 </html>

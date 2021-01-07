@@ -22,6 +22,6 @@ public class GalleryController {
     public String Gallery(Model model) {
         List<Gallery> gallery = galleryRepository.findAll();
         model.addAttribute("gallery", gallery);
-        return "gallery";
+        return "/gallery/gallery";
     }
 }

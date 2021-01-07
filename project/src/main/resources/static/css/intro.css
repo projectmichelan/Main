@@ -5,6 +5,19 @@
     --text-black: black;
 }
 
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/icon-watercolor.png); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    text-decoration: none;
+    color: var(--text-black);
+}
+
 .nav__bar {
     display: flex;
     justify-content: space-between;
