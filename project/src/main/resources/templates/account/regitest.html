@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../../static/css/regitest.css">
-    <script type="text/javascript" src="../../static/js/regitest.js"></script>
 </head>
 <body>
     
@@ -19,6 +18,7 @@
                     <button type="button" class="togglebtn" onclick="login()">LOG IN</button>
                     <button type="button" class="togglebtn" onclick="register()">REGISTER</button>
                 </div>
+                <!--나중에 이미지 구해서 쓰겠습니다.-->
                 <!-- <div class="social-icons">
                     <img src="img/fb.png" alt="facebook">
                     <img src="img/tw.png" alt="twitter">
@@ -39,24 +39,7 @@
                 </form>
             </div>
         </div>
-        <script>
-            var x = document.getElementById("login");
-            var y = document.getElementById("register");
-            var z = document.getElementById("btn");
-
-
-            function login(){
-                x.style.left = "50px";
-                y.style.left = "450px";
-                z.style.left = "0";
-            }
-
-            function register(){
-                x.style.left = "-400px";
-                y.style.left = "50px";
-                z.style.left = "110px";
-            }
-        </script>
-        
+        <!--컴파일 순서 때문에 바디 맨끝에 넣어야 된다고 합니다.-->
+        <script type="text/javascript" src="../../static/js/regitest.js"></script>
     </body>
 </html> 

@@ -45,10 +45,10 @@
     border-radius: 30px;
     transition: .5s;
 }
-.social-icons {
+/* .social-icons {
     margin: 30px auto;
     text-align: center;
-}
+} */
 .social-icons img {
     width: 30px ;
     cursor: pointer;
