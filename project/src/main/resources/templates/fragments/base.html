@@ -5,62 +5,14 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" th:href="@{/css/bootstrap.css}" />
+        <link rel="stylesheet" th:href="|/css/${title}.css|" />
     </head>
+
     <title>Base</title>
 
     <body>
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top" th:fragment="navbar(navbar)">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Michelan(logo)</a>
-                <button
-                    class="navbar-toggler"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#navbarsExampleDefault"
-                    aria-controls="navbarsExampleDefault"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation"
-                >
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                        <li class="nav-item" th:classappend="${navbar} == 'main' ? 'active'">
-                            <a class="nav-link" href="#" th:href="@{/}">홈<span class="sr-only" th:if="${menu} == 'main'">(current)</span></a>
-                        </li>
-                        <li class="nav-item" th:classappend="${navbar} == 'list' ? 'active'">
-                            <a class="nav-link" href="#" th:href="@{/gallery/galleryview}">갤러리<span class="sr-only" th:if="${menu} == 'galleryview'">(current)</span></a>
-                        </li>
-
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">카테고리</a>
-                            <ul class="dropdown-menu" aria-labelledby="dropdown01">
-                                <li><a class="dropdown-item" href="#">회화</a></li>
-                                <li><a class="dropdown-item" href="#">도예</a></li>
-                                <li><a class="dropdown-item" href="#">공예</a></li>
-                                <li><a class="dropdown-item" href="#">조소</a></li>
-                                <li><a class="dropdown-item" href="#">기타</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Admin</a>
-                        </li>
-                    </ul>
-                    <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
-                </div>
-            </div>
-        </nav>
-<<<<<<< HEAD
-
-        <div th:fragment="footer">
-=======
         <!-- 모든페이지 완성했을시 푸터 오류나면 수정하겠습니다. -->
-        <div class="foot">
->>>>>>> 84972f287151b346c91068d13e93e8f1280a2039
+        <div th:fragment="foot">
             <div class="jumbotron text-center mt-5 mb-0">
                 <h3 class="text-secondary">MICHELAN</h3>
                 <p>MICHELAN's Homepage is powered by <span class="text-primary">KKLYM</span>/ Designed by<span class="text-primary">KKLYM</span></p>

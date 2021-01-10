@@ -1,10 +1,6 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
-    <head th:insert="fragments/base :: head(gallery)"> </head>
-
-    <link rel="canonical" th:href="@{https://getbootstrap.com/docs/4.1/examples/jumbotron/}" />
-    <link th:href="@{/css/bootstrap.css}" rel="stylesheet" />
-    <link th:href="@{/css/gallery.css}" rel="stylesheet" />
+    <head th:replace="fragments/base :: head(gallery)"> </head>
 
     <body>
         <main role="main">
@@ -45,7 +41,7 @@
             <!-- /container -->
         </main>
 
-        <footer th:replace="fragments/base :: footer"></footer>
+        <footer th:replace="fragments/base :: foot"></footer>
 
         <script th:src="@{/js/jquery-slim.js}" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script>

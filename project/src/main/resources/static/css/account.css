@@ -43,21 +43,21 @@
     height: 100%;
     background: linear-gradient(to right, #ff105f, #ffad06);
     border-radius: 30px;
-    transition: .5s;
+    transition: 1s;
 }
 /* .social-icons {
     margin: 30px auto;
     text-align: center;
 } */
 .social-icons img {
-    width: 30px ;
+    width: 30px;
     cursor: pointer;
 }
 .input-group {
     top: 180px;
     position: absolute;
     width: 280px;
-    transition: .5s;
+    transition: 0.5s;
 }
 .input-field {
     width: 100%;
@@ -84,13 +84,14 @@
 }
 span {
     color: #777;
-    font-size: 12px;
-    bottom: 68px;
+    font-size: 10px;
+    bottom: 60px;
     position: absolute;
 }
 #login {
     left: 50px;
 }
+
 #register {
-    left: 450px;
-} 
+    left: 400px;
+}
