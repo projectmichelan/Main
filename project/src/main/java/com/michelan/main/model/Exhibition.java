@@ -10,11 +10,12 @@ import javax.persistence.Id;
 
 @Entity
 @Data
-public class Gallery {
+public class Exhibition {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
 
     private Long id;
     private String title;
     private String content;
+    private Long type;
 }
