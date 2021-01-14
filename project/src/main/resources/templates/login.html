@@ -10,7 +10,7 @@
                 <div class="button-wrap">
                     <div id="btn"></div>
                     <button type="button" class="togglebtn" th:onclick="login()">LOGIN</button>
-                    <button type="button" class="togglebtn" th:onclick="register()">REGISTER</button>
+                    <!-- <button type="button" class="togglebtn" th:onclick="register()">REGISTER</button> -->
                 </div>
                 <!--나중에 이미지 구해서 쓰겠습니다.-->
                 <!-- <div class="social-icons">
@@ -27,12 +27,12 @@
                     <button class="submit">Login</button>
                 </form>
 
-                <form id="register" th:action="@{/account}" class="input-group" method="POST">
+                <!-- <form id="register" th:action="@{/account}" class="input-group" method="POST">
                     <input type="text" name="username" class="input-field" placeholder="Email" required />
                     <input type="email" name="username" class="input-field" placeholder="Email" required />
                     <input type="password" name="password" class="input-field" placeholder="Password" required />
                     <button class="submit">Register</button>
-                </form>
+                </form> -->
             </div>
         </div>
         <script type="text/javascript" th:src="@{/js/account.js}"></script>
