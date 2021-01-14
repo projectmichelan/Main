@@ -16,12 +16,13 @@ public class AccountController {
 
     @GetMapping
     public String account() {
+
         return "account";
     }
 
     @PostMapping
     public String register(User user){
         userService.save(user);
-        return "redirect:/";
+        return "redirect:account";
     }
 }
