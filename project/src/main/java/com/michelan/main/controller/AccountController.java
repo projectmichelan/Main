@@ -11,18 +11,24 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 @RequestMapping("/account")
 public class AccountController {
+
     @Autowired
     private UserService userService;
 
-    @GetMapping
-    public String account() {
-
-        return "account";
+    @GetMapping("/login")
+    public String login() {
+        return "account/login";
     }
 
-    @PostMapping
+    @GetMapping("/register")
+    public String register() {
+        return "account/register";
+    }
+
+    @PostMapping("/register")
     public String register(User user){
         userService.save(user);
-        return "redirect:account";
+        return "redirect:intro";
     }
+
 }

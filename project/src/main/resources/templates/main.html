@@ -6,6 +6,7 @@
 
     <title>Main gallery</title>
     <body>
+        <nav th:replace ="fragments/base :: navbar"></nav>
         <main>
             <section class="py-5 text-center container">
                 <div class="row py-lg-5">
@@ -101,7 +102,7 @@
             </div>
         </main>
 
-        <script th:src="/js/bootstrap.bundle.js"></script>
+        <script th:src="@{/js/bootstrap.bundle.js}"></script>
         <script th:src="/js/popper.min.js"></script>
         <script th:src="/js/bootstrap.js"></script>
     </body>
