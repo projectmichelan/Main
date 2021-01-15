@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
-<head th:replace = "fragments/base :: head(profile)">
+<head th:replace = "fragments/base :: head(gallery)">
 
     <title th:text=${username}></title>
-    <link rel="stylesheet" th:href="../static/css/bootstrap.css">
+    <link rel="stylesheet" th:href="@{/css/bootstrap.css}">
 </head>
 <body>
     
