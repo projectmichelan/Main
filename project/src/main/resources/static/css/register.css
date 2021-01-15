@@ -43,7 +43,7 @@
     height: 100%;
     background: linear-gradient(to right, #ff105f, #ffad06);
     border-radius: 30px;
-    transition: 1s;
+    transition: 2s;
 }
 /* .social-icons {
     margin: 30px auto;
@@ -90,5 +90,5 @@ span {
 }
 
 #register {
-    left: 40px;
+    left: 50px;
 }

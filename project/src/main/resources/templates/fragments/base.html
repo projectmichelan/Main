@@ -52,8 +52,11 @@
                                 </li>
                             </ul>
 
-                            <form>
-                                <input class="form-control" type="text" placeholder="Search" aria-label="Search" />
+                            <a class="btn btn-secondary my-2 my-sm-0 float-right" th:href="@{/account/login}" sec:authorize="!isAuthenticated()">로그인</a>
+                            <form class="form-inline my-2 my-lg-0" sec:authorize="isAuthenticated()">
+                                <span sec:authentication="name">사용자</span>
+                                <span sec:authentication="pricipal.authorities">권한</span>
+                                <button class="btn btn-secondary my-2 my-sm-0 float-right" type="submit">로그아웃</button>
                             </form>
                         </div>
                     </div>
@@ -73,8 +76,8 @@
             </footer>
         </div>
 
-        <script th:src="@{/static/js/popper.min.js}"></script>
-        <script th:src="@{/static/js/bootstrap.js}"></script>
-        <script th:src="@{/static/js/bootstrap.bundle.js}"></script>
+        <script th:src="@{../js/popper.min.js}"></script>
+        <script th:src="@{../js/bootstrap.js}"></script>
+        <script th:src="@{../js/bootstrap.bundle.js}"></script>
     </body>
 </html>

@@ -13,7 +13,7 @@
                     <div class="col-lg-6 col-md-8 mx-auto">
                         <h1 class="fw-light">Michelan</h1>
                         <p class="lead text-muted">현재 진행 중인 전시회를 살펴 보세요</p>
-                        <p th:text="${#lists.size(Exhibition)} + '개의 전시가 진행 중입니다.'"></p>
+                        <p style = "font-size:larger" th:text="${#lists.size(Exhibition)} + '개의 전시가 진행 중입니다.'"></p>
                         <p>
                             <!-- <a href="#" class="btn btn-primary my-2">Main call to action</a>
                             <a href="#" class="btn btn-secondary my-2">Secondary action</a> -->
@@ -101,9 +101,5 @@
                 </div>
             </div>
         </main>
-
-        <script th:src="@{/js/bootstrap.bundle.js}"></script>
-        <script th:src="/js/popper.min.js"></script>
-        <script th:src="/js/bootstrap.js"></script>
     </body>
 </html>
