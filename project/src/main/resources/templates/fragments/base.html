@@ -53,10 +53,8 @@
                             </ul>
 
                             <a class="btn btn-secondary my-2 my-sm-0 float-right" th:href="@{/account/login}" sec:authorize="!isAuthenticated()">로그인</a>
-                            <form class="form-inline my-2 my-lg-0" sec:authorize="isAuthenticated()">
-                                <span sec:authentication="name">사용자</span>
-                                <span sec:authentication="pricipal.authorities">권한</span>
-                                <button class="btn btn-secondary my-2 my-sm-0 float-right" type="submit">로그아웃</button>
+                            <form class="form-inline my-2 my-lg-0" th:action="@{/logout}" method="POST" sec:authorize="isAuthenticated()">
+                                <button class="btn btn-secondary my-2 my-sm-0 float-right" th:onclick="'location.href=\''+@{login}+'\''" type="submit">로그아웃</button>
                             </form>
                         </div>
                     </div>

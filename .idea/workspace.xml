@@ -5,17 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f887489-b693-4c31-9e1a-6d4edf51e806" name="Default Changelist" comment="structure 구성">
-      <change afterPath="$PROJECT_DIR$/project/src/main/java/com/michelan/main/controller/GalleryController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/main/java/com/michelan/main/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/java/com/michelan/main/config/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/main/java/com/michelan/main/controller/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/java/com/michelan/main/controller/AccountController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/main/resources/static/css/intro.css" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/resources/static/css/intro.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/main/resources/static/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/resources/static/css/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/main/resources/static/css/register.css" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/resources/static/css/register.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/account/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/resources/templates/account/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/account/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/resources/templates/account/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/fragments/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/resources/templates/fragments/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/resources/templates/gallery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/intro.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/resources/templates/intro.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/resources/templates/main.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

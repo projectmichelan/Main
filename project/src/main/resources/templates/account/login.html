@@ -18,8 +18,8 @@
                     <img src="img/tw.png" alt="twitter">
                     <img src="img/gl.png" alt="google">
                 </div> -->
-                <div th:if="${param.error}" style="text-align: center; color: brown">Invalid username and password</div>
-                <div th:if="${param.logout}" style="text-align: center; color: blue">Logout!</div>
+                <div th:if="${param.error}" style="text-align: center; color: brown">입력 정보를 확인해주세요.</div>
+                <div th:if="${param.logout}" style="text-align: center; color: blue">성공적으로 로그아웃되었습니다.</div>
 
                 <form id="login" th:action="@{/account/login}" class="input-group" method="POST">
                     <input type="text" id="username" name="username" class="input-field" placeholder="Email" required />

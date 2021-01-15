@@ -6,7 +6,8 @@
     <body>
         <div class="boot" style="text-align: center; margin: 20% 15% 15% 10%">
             <p class="display-3">당신의 갤러리, Michelan</p>
-            <a th:href="@{/account/login}" class="btn btn-primary btn-lg">로그인</a>
+            <a sec:authorize="!isAuthenticated()" th:href="@{/account/login}" class="btn btn-primary btn-lg">로그인</a>
+            <a sec:authorize="isAuthenticated()" th:href="@{/gallery}" class="btn btn-primary btn-lg">내 갤러리</a>
             <a th:href="@{/main}" class="btn btn-secondary btn-lg">둘러보기</a>
         </div>
     </body>

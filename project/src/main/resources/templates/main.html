@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org">
-    <head th:include="fragments/base :: head(main)" lang="ko" xmlns:sec="http://www.thymeleaf.org/extras/spring-security"></head>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+    <head th:include="fragments/base :: head(main)" lang="ko" ></head>
         <meta name="theme-color" content="#7952b3" />
     </head>
 
@@ -12,6 +12,9 @@
                 <div class="row py-lg-5">
                     <div class="col-lg-6 col-md-8 mx-auto">
                         <h1 class="fw-light">Michelan</h1>
+                        <p class="fw-light" sec:authorize="isAuthenticated()">
+                            <span sec:authentication="name"></span><span>님 안녕하세요.</span>
+                        </p>
                         <p class="lead text-muted">현재 진행 중인 전시회를 살펴 보세요</p>
                         <p style = "font-size:larger" th:text="${#lists.size(Exhibition)} + '개의 전시가 진행 중입니다.'"></p>
                         <p>
