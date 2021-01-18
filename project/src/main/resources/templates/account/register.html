@@ -1,7 +1,14 @@
 <!DOCTYPE html>
 
 <html xmlns:th="http://www.thymeleaf.org">
-    <head th:replace="fragments/base :: head(register)"> </head>
+    <head lang="ko">
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" th:href="@{/css/bootstrap.css}" />
+        <link rel="stylesheet" th:href="@{/css/register.css}" />
+        <script type = text/javascript th:src="@{/js/bootstrap.js}"></script>
+    </head>
+
     <title>Login</title>
 
     <body>
@@ -12,12 +19,6 @@
                     <button type="button" class="togglebtn" th:onclick="'location.href=\''+@{login}+'\''">LOGIN</button>
                     <button type="button" class="togglebtn" th:onclick="'location.href=\''+@{register}+'\''">REGISTER</button>
                 </div>
-                <!--나중에 이미지 구해서 쓰겠습니다.-->
-                <!-- <div class="social-icons">
-                    <img src="img/fb.png" alt="facebook">
-                    <img src="img/tw.png" alt="twitter">
-                    <img src="img/gl.png" alt="google">
-                </div> -->
 
                 <form id="register" th:action="@{/account/register}" class="input-group" method="POST">
                     <input type="email" name="id" class="input-field" placeholder="Email" required />

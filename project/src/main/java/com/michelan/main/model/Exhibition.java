@@ -17,5 +17,4 @@ public class Exhibition {
     private Long id;
     private String title;
     private String content;
-    private Long type;
 }
