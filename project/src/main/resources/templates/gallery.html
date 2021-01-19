@@ -3,25 +3,15 @@
 <head th:replace = "fragments/base :: head(gallery)">
 
     <title th:text=${username}></title>
-    <link rel="stylesheet" th:href="@{/css/bootstrap.css}">
+    <link rel="stylesheet" href="/Main/project/src/main/resources/static/css/bootstrap.css">
+    <!-- <link rel="stylesheet" th:href="@{/css/bootstrap.css}"> -->
 </head>
 <body>
     
 
 
 <div class="container">
-    <div class="main-body">
-    
-          
-          <nav aria-label="breadcrumb" class="main-breadcrumb">
-            <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-              <li class="breadcrumb-item"><a href="javascript:void(0)">User</a></li>
-              <li class="breadcrumb-item active" aria-current="page">User Profile</li>
-            </ol>
-          </nav>
-          
-    
+    <div class="main-body"> 
           <div class="row gutters-sm">
             <div class="col-md-4 mb-3">
               <div class="card">
@@ -112,5 +102,38 @@
                   </div>
                 </div>
               </div>
+              
+
+              <div class="album py-5 bg-light">
+                <div class="container">
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                        <th:block th:each="exhibition: ${Exhibition}">
+                            <div class="col">
+                                <div class="card shadow-sm">
+                                    <svg
+                                        class="bd-placeholder-img card-img-top"
+                                        width="100%"
+                                        height="225"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        role="img"
+                                        aria-label="Placeholder: Thumbnail"
+                                        preserveAspectRatio="xMidYMid slice"
+                                        focusable="false"
+                                    >
+                                        <title>Placeholder</title>
+                                        <rect width="100%" height="100%" fill="#55595c" />
+                                        <text x="50%" y="50%" fill="#eceeef" dy=".3em" th:text="${exhibition.id}"></text>
+                                    </svg>
+
+                                    <div class="card-body">
+                                        <p class="card-text" th:text="${exhibition.title}"></p>
+                                        <p class="card-text" th:text="${exhibition.content}"></p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                    view
+                                                  </button>
+
+
 </body>
 </html>
