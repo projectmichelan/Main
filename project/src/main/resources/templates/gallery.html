@@ -3,7 +3,8 @@
 <head th:replace = "fragments/base :: head(gallery)">
 
     <title th:text=${username}></title>
-    <link rel="stylesheet" href="/Main/project/src/main/resources/static/css/bootstrap.css">
+    <link rel="stylesheet" href="../static/css/bootstrap5.css">
+    <script src="../static/js/bootstrap5.js"></script>
     <!-- <link rel="stylesheet" th:href="@{/css/bootstrap.css}"> -->
 </head>
 <body>
@@ -126,14 +127,36 @@
                                     </svg>
 
                                     <div class="card-body">
-                                        <p class="card-text" th:text="${exhibition.title}"></p>
-                                        <p class="card-text" th:text="${exhibition.content}"></p>
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div class="btn-group">
-                                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                                    view
-                                                  </button>
-
+                                      <p class="card-text" th:text="${exhibition.title}"></p>
+                                      <p class="card-text" th:text="${exhibition.content}"></p>
+                                      <div class="d-flex justify-content-between align-items-center">
+                                          <div class="btn-group">
+                                              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                  view
+                                                </button>
+                                                 <!-- 모달 -->
+                                                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                      <div class="modal-dialog">
+                                                      <div class="modal-content">
+                                                          <div class="modal-header">
+                                                          <h5 class="modal-title" id="exampleModalLabel">모달 이름</h5>
+                                                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                          </div>
+                                                          <div class="modal-body">
+                                                          모달 내용
+                                                          </div>
+                                                          <div class="modal-footer">
+                                                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">닫기</button>
+                                                          <button type="button" class="btn btn-primary">삭제</button>
+                                                          </div>
+                                                      </div>
+                                                      </div>
+                                                  </div>
+                                              <button type="button" class="btn btn-sm btn-outline-secondary">Like</button>
+                                          </div>
+                                          <small class="text-muted">9 mins</small>
+                                      </div>
+                                  </div>
 
 </body>
 </html>
