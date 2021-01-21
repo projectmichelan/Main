@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ProjectMichelan:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f887489-b693-4c31-9e1a-6d4edf51e806" name="Default Changelist" comment="structure 구성">
+      <change afterPath="$PROJECT_DIR$/project/src/main/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/main/java/com/michelan/main/model/Exhibition.java" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/java/com/michelan/main/model/Exhibition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/account/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/resources/templates/account/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/account/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/resources/templates/account/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/fragments/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/resources/templates/fragments/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/fragments/basetest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/resources/templates/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/application.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,9 +52,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Problems" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15376782" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -63,11 +65,11 @@
       <recent name="com.michelan.main" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\Desktop\Michelan\main\project\src\main" />
+      <recent name="C:\Users\admin\Desktop\Michelan\main\project\src\main\java" />
+      <recent name="C:\Users\admin\Desktop\Michelan\main\project\src\main\resources" />
       <recent name="C:\Users\admin\Desktop\prj\Main\project\src\main\resources\templates\account" />
       <recent name="C:\Users\admin\Desktop\prj\Main\project\src\main\resources\templates" />
-      <recent name="C:\Users\admin\Desktop\prj\Main\project\src\main\resources\templates\gallery" />
-      <recent name="C:\Users\admin\Desktop\prj\Main\project\src\main\resources\static\css" />
-      <recent name="C:\Users\admin\Desktop\prj\Main\project\src\main\resources\static\img\css" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.michelan.main.controller" />
