@@ -10,11 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f887489-b693-4c31-9e1a-6d4edf51e806" name="Default Changelist" comment="structure 구성">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_22.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/main/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/main/java/com/michelan/main/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/java/com/michelan/main/MainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/java/com/michelan/main/model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/java/com/michelan/main/model/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/java/com/michelan/main/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/java/com/michelan/main/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/account/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/resources/templates/account/register.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
