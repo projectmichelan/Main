@@ -2,6 +2,7 @@
 <html xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
     <head th:include="fragments/base :: head(main)" lang="ko" ></head>
         <meta name="theme-color" content="#7952b3" />
+        
     </head>
 
     <title>Main gallery</title>
@@ -18,7 +19,7 @@
                         <p class="lead text-muted">현재 진행 중인 전시회를 살펴 보세요</p>
                         <p style = "font-size:larger" th:text="${#lists.size(Exhibition)} + '개의 전시가 진행 중입니다.'"></p>
                         <p>
-                            <!-- <a href="#" class="btn btn-primary my-2">전시하기</a> -->
+                            
                             <a href="#" class="btn btn-secondary my-2">전시하기</a>
                         </p>
                     </div>
@@ -67,14 +68,14 @@
                                                             </div>
                                                             <div class="modal-footer">
                                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">닫기</button>
-                                                            <button type="button" class="btn btn-primary">닫기</button>
+                                                            <!-- <button type="button" class="btn btn-primary">닫기</button> -->
                                                             </div>
                                                         </div>
                                                         </div>
                                                     </div>
                                                 <button type="button" class="btn btn-sm btn-outline-secondary">Like</button>
                                             </div>
-                                            <small class="text-muted">9 mins</small>
+                                            <small class="text-muted">1 likes</small>
                                         </div>
                                     </div>
                                 </div>
