@@ -21,7 +21,8 @@
                 </div>
 
                 <form id="register" th:action="@{/account/register}" class="input-group" method="POST">
-                    <input type="email" name="username" class="input-field" placeholder="Email" required />
+                    <input type="email" name="id" class="input-field" placeholder="Email" required />
+                    <input type="text" name="username" class="input-field" placeholder="Nick name" required />
                     <input type="password" name="password" class="input-field" placeholder="Password" required />
                     <button class="submit">Register</button>
                 </form>
