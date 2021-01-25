@@ -18,8 +18,8 @@
                     <p class="fw-light" sec:authorize="isAuthenticated()">
                         <span sec:authentication="name"></span><span>님 안녕하세요.</span>
                     </p>
-                    <p class="lead text-muted">현재 진행 중인 전시회를 살펴 보세요</p>
-                    <p style="font-size:larger" th:text="${#lists.size(Exhibition)} + '개의 전시가 진행 중입니다.'"></p>
+                    <p class="lead text-muted">현재 전시 중인 작품을 살펴 보세요</p>
+                    <p style="font-size:larger" th:text="${#lists.size(Exhibition)} + '개의 작품이 전시 중입니다.'"></p>
                         <p>
                             <a sec:authorize="isAuthenticated()" th:onclick="'location.href=\''+@{upload}+'\''" class="btn btn-secondary my-2">전시하기</a>
                         </p>
