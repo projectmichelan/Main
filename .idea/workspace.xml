@@ -10,12 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f887489-b693-4c31-9e1a-6d4edf51e806" name="Default Changelist" comment="structure 구성">
+      <change afterPath="$PROJECT_DIR$/project/src/main/resources/static/css/upload.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/main/java/com/michelan/main/controller/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/java/com/michelan/main/controller/AccountController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/main/java/com/michelan/main/controller/UploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/java/com/michelan/main/controller/UploadController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/account/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/resources/templates/account/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/resources/templates/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/java/com/michelan/main/model/Exhibition.java" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/java/com/michelan/main/model/Exhibition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/newupload.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/resources/templates/upload.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
