@@ -9,7 +9,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f887489-b693-4c31-9e1a-6d4edf51e806" name="Default Changelist" comment="structure 구성" />
+    <list default="true" id="3f887489-b693-4c31-9e1a-6d4edf51e806" name="Default Changelist" comment="structure 구성">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/java/com/michelan/main/controller/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/java/com/michelan/main/controller/AccountController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/java/com/michelan/main/controller/UploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/java/com/michelan/main/controller/UploadController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/account/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/resources/templates/account/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/resources/templates/main.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,7 +54,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15376782" />
     <property name="project.structure.side.proportion" value="0.2" />
