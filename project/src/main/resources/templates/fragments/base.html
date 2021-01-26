@@ -12,7 +12,7 @@
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-light bg-light rounded" aria-label="Eleventh navbar example">
                     <div class="container-fluid">
-                        <a class="navbar-brand" href="#">Navbar</a>
+                        <a class="navbar-brand" th:href="@{/}">MICHELAN</a>
                         <button
                             class="navbar-toggler"
                             type="button"
@@ -28,7 +28,7 @@
                         <div class="collapse navbar-collapse" id="navbarsExample09">
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li class="nav-item active">
-                                    <a class="nav-link" aria-current="page" href="#">홈</a>
+                                    <a class="nav-link" aria-current="page" th:href="@{/}">홈</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">갤러리</a>
@@ -36,8 +36,8 @@
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" id="dropdown09" data-bs-toggle="dropdown" aria-expanded="false">로그인</a>
                                     <ul class="dropdown-menu" aria-labelledby="dropdown09">
-                                        <li><a class="dropdown-item" href="#">로그인</a></li>
-                                        <li><a class="dropdown-item" href="#">회원가입</a></li>
+                                        <li><a class="dropdown-item" th:href="@{/account/login}">로그인</a></li>
+                                        <li><a class="dropdown-item" th:href="@{/account/register}">회원가입</a></li>
                                         <!-- 로그인 했을시 -->
                                         <!-- 그리고 팀원소개 페이지 만들시 하나더 네비링크 만들게요 -->
                                         <li><a class="dropdown-item" href="#">회원정보</a></li>
