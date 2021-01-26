@@ -2,6 +2,7 @@
 <html>
 
 <head th:replace="fragments/base :: head(upload)" lang="ko">
+    <link rel="stylesheet" href="../static/css/bootstrap5.css">
 
 </head>
 
@@ -14,27 +15,28 @@
                 <h2>작품전시</h2>
                 <p class="lead">최고의 작품을 세상에 보여주고 자신을 표현해 보세요.</p>
             </div>
-
-            <div class="row g-3">
-                <h4 class="mb-3"></h4>
-                <div class="col-12">
-                    <label for="title" class="form-label">작품명 <span class="text-muted">(Gallery)</span></label>
-                    <input type="title" class="form-control" id="title" placeholder="작품의 제목을 입력하세요.">
+            <form method="POST" action="../static/php/file.php" enctype="multipart/form-data">
+                <p><div class="row g-3">
+                    <h4 class="mb-3"></h4>
+                    <div class="col-12">
+                        <label for="title" class="form-label">작품명 <span class="text-muted">(Gallery)</span></label>
+                        <input type="text" name="title" class="form-control" id="title" placeholder="작품의 제목을 입력하세요.">
+                    </div>
                 </div>
-
-                <div class="col-12">
+                </p>
+                <p><div class="col-12">
                     <label for="text" class="form-label">설명</label>
-                    <input type="text" class="form-control" id="text" placeholder="작품을 설명해 주세요." required>
+                    <input type="text" name="description" class="form-control" id="text" placeholder="작품을 설명해 주세요." required>
                 </div>
-
-                <h6>파일 업로드</h6>
+                </p>
+                <p><h6>파일 업로드</h6>
                 <div class="input-group mb-3">
-                    <input type="file" class="form-control" id="inputGroupFile02">
+                    <input type="file" name= "myfile" class="form-control" id="inputGroupFile02" accept="image/*">
                     <label class="input-group-text" for="inputGroupFile02">Upload</label>
                 </div>
-                <button type="submit" class="btn btn-secondary" style="float: right;">업로드</button>
-
-            </div>
+                </p>
+                <button type="submit" value="전송" class="btn btn-secondary" style="float: right;">업로드</button>
+            </form>
         </main>
     </div>
 </body>
